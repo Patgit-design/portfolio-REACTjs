@@ -27,12 +27,34 @@ body {
 nav {
   padding: 60px 30px 0px 30px;
   flex: var(--sidebar-flex);
-  background: rgb(238, 103, 143);
-  background: linear-gradient(
-    180deg,
-    rgba(238, 103, 143, 1) 50%,
-    rgba(132, 124, 252, 1) 80%
-  );
+  text-decoration: none;
+  background: linear-gradient(270deg, #00050d, #1b3140, #245e75, #1e91a9, #12c7d8);
+    background-size: 75% 50%;
+
+    -webkit-animation: AnimationName 13s ease infinite;
+    -moz-animation: AnimationName 13s ease infinite;
+    animation: AnimationName 13s ease infinite;
+  
+  
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 74%}
+  50%{background-position:100% 27%}
+  100%{background-position:0% 74%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 74%}
+  50%{background-position:100% 27%}
+  100%{background-position:0% 74%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 74%}
+  50%{background-position:100% 27%}
+  100%{background-position:0% 74%}
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 nav ul {
@@ -44,10 +66,28 @@ nav ul {
 }
 nav ul li {
   margin: 40px;
+  text-decoration: none;
+  color: white !important;
 }
 /* css for active class */
 .active {
   font-weight: bolder;
+}
+.logo-skills {
+  width: 50%;
+  height: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 5rem;
+
+
+}
+
+.list-skills
+{
+  list-style-type:circle;
+  
 }
 
 .social {
@@ -62,48 +102,62 @@ nav ul li {
   .social {
     justify-content: center;
   }
+  .logo-skills {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 450px) {
   .social {
     flex-flow: column wrap;
   }
+  .logo-skills {
+    flex-flow: column wrap;
+  }
 }
 .typingeffect {
   font-size: 30px;
+  font-weight: bold;
 }
 
 .profilepic {
-  filter: invert(1);
-  -webkit-filter: invert(1);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .profilepic:hover {
-  filter: invert(0);
-  -webkit-filter: invert(0);
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
-.subtopic
-{
-margin:10px 10px 30px 10px !important;
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
 }
-p
-{
-font-size: var(--fontsize-p);
+p {
+  font-size: var(--fontsize-p);
 }
-h1,h2,h3,h4,p
-{
-margin: 10px;
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 10px;
 }
 
-.widecard
-{
-border:0px solid #9a9b9c;
-display: flex;
-margin:30px 0px 30px 0px;
+.widecard {
+  border: 0px solid #9a9b9c;
+  display: flex;
+  margin: 30px 0px 30px 0px;
 }
-.widecard:hover
-{
-color: #1b1d20;
-background-color: #ffffff;
-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+.widecard:hover {
+  color: #1b1d20;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.link-pomodo {
+  float: right;
+  text-decoration: none;
+}
+.link-education {
+  text-decoration: none;
 }
