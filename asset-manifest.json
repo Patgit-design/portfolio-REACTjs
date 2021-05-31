@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Patgit-design/portfolio-REACTjs/static/css/main.5e7905cd.chunk.css",
+    "main.js": "/Patgit-design/portfolio-REACTjs/static/js/main.a29231c9.chunk.js",
+    "main.js.map": "/Patgit-design/portfolio-REACTjs/static/js/main.a29231c9.chunk.js.map",
+    "runtime-main.js": "/Patgit-design/portfolio-REACTjs/static/js/runtime-main.15e381f5.js",
+    "runtime-main.js.map": "/Patgit-design/portfolio-REACTjs/static/js/runtime-main.15e381f5.js.map",
+    "static/js/2.cb5a6dcc.chunk.js": "/Patgit-design/portfolio-REACTjs/static/js/2.cb5a6dcc.chunk.js",
+    "static/js/2.cb5a6dcc.chunk.js.map": "/Patgit-design/portfolio-REACTjs/static/js/2.cb5a6dcc.chunk.js.map",
+    "static/js/3.490eb3d8.chunk.js": "/Patgit-design/portfolio-REACTjs/static/js/3.490eb3d8.chunk.js",
+    "static/js/3.490eb3d8.chunk.js.map": "/Patgit-design/portfolio-REACTjs/static/js/3.490eb3d8.chunk.js.map",
+    "index.html": "/Patgit-design/portfolio-REACTjs/index.html",
+    "static/css/main.5e7905cd.chunk.css.map": "/Patgit-design/portfolio-REACTjs/static/css/main.5e7905cd.chunk.css.map",
+    "static/js/2.cb5a6dcc.chunk.js.LICENSE.txt": "/Patgit-design/portfolio-REACTjs/static/js/2.cb5a6dcc.chunk.js.LICENSE.txt",
+    "static/media/Bootstrap-Logo.761a5baf.png": "/Patgit-design/portfolio-REACTjs/static/media/Bootstrap-Logo.761a5baf.png",
+    "static/media/Trello_logo.e8a29855.png": "/Patgit-design/portfolio-REACTjs/static/media/Trello_logo.e8a29855.png",
+    "static/media/WP.30010e01.png": "/Patgit-design/portfolio-REACTjs/static/media/WP.30010e01.png",
+    "static/media/css3.de88f6dc.png": "/Patgit-design/portfolio-REACTjs/static/media/css3.de88f6dc.png",
+    "static/media/facebook.6fc8783c.svg": "/Patgit-design/portfolio-REACTjs/static/media/facebook.6fc8783c.svg",
+    "static/media/figma.b08682c3.png": "/Patgit-design/portfolio-REACTjs/static/media/figma.b08682c3.png",
+    "static/media/github.aca2dd91.svg": "/Patgit-design/portfolio-REACTjs/static/media/github.aca2dd91.svg",
+    "static/media/html5.b7d94634.png": "/Patgit-design/portfolio-REACTjs/static/media/html5.b7d94634.png",
+    "static/media/instagram.6030a881.png": "/Patgit-design/portfolio-REACTjs/static/media/instagram.6030a881.png",
+    "static/media/javascript-original.f719efab.svg": "/Patgit-design/portfolio-REACTjs/static/media/javascript-original.f719efab.svg",
+    "static/media/linkedin.5f5b72fe.svg": "/Patgit-design/portfolio-REACTjs/static/media/linkedin.5f5b72fe.svg",
+    "static/media/medailloncv.7205a6f8.png": "/Patgit-design/portfolio-REACTjs/static/media/medailloncv.7205a6f8.png",
+    "static/media/mySQL.9ea438b0.png": "/Patgit-design/portfolio-REACTjs/static/media/mySQL.9ea438b0.png",
+    "static/media/node-js.0f5c1eec.svg": "/Patgit-design/portfolio-REACTjs/static/media/node-js.0f5c1eec.svg",
+    "static/media/php-original.6dd1c35d.svg": "/Patgit-design/portfolio-REACTjs/static/media/php-original.6dd1c35d.svg",
+    "static/media/pomodoro-start.d6a9be54.png": "/Patgit-design/portfolio-REACTjs/static/media/pomodoro-start.d6a9be54.png",
+    "static/media/sass-original.8ec16938.svg": "/Patgit-design/portfolio-REACTjs/static/media/sass-original.8ec16938.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15e381f5.js",
+    "static/js/2.cb5a6dcc.chunk.js",
+    "static/css/main.5e7905cd.chunk.css",
+    "static/js/main.a29231c9.chunk.js"
+  ]
+}
