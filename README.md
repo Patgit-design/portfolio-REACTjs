@@ -10,7 +10,7 @@ I learned the components and the tree of a React's project.
 
 ## Deployment
 
-This is [His Github page](https://patgit-design.github.io/)
+This is [His Github page](https://patgit-design.github.io/portfolio-REACTjs/)
 
 ## Feeding
 
