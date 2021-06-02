@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Education from './content/education';
 import Skills from './content/skills';
 import Contact from './content/contact';
-import Projects from './content/projects'
+import Projects from './content/projects';
 
 function App() {
     return (

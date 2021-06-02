@@ -7,7 +7,7 @@ class Projects extends Component {
                 <div className="projects">
                     <h2 className="projects_title">Here some links of projects</h2>
                    <img src={Pomodo} className="pomodoro" alt="pomodoro-project"></img>
-                   <a className ="link-pomodo" href="https://admiring-chandrasekhar-8ca532.netlify.app/" >One Pomodoro Timer</a>
+                   <a className ="link-project" href="https://admiring-chandrasekhar-8ca532.netlify.app/" >One Pomodoro Timer</a>
                 </div>
                 
             </div>
