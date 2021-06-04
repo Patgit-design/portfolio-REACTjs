@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-REACTjs/static/css/main.ce3d83c9.chunk.css",
-    "main.js": "/portfolio-REACTjs/static/js/main.72e8f16f.chunk.js",
-    "main.js.map": "/portfolio-REACTjs/static/js/main.72e8f16f.chunk.js.map",
+    "main.css": "/portfolio-REACTjs/static/css/main.8774676f.chunk.css",
+    "main.js": "/portfolio-REACTjs/static/js/main.3ab2a168.chunk.js",
+    "main.js.map": "/portfolio-REACTjs/static/js/main.3ab2a168.chunk.js.map",
     "runtime-main.js": "/portfolio-REACTjs/static/js/runtime-main.f76bd03f.js",
     "runtime-main.js.map": "/portfolio-REACTjs/static/js/runtime-main.f76bd03f.js.map",
     "static/js/2.cb5a6dcc.chunk.js": "/portfolio-REACTjs/static/js/2.cb5a6dcc.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.490eb3d8.chunk.js": "/portfolio-REACTjs/static/js/3.490eb3d8.chunk.js",
     "static/js/3.490eb3d8.chunk.js.map": "/portfolio-REACTjs/static/js/3.490eb3d8.chunk.js.map",
     "index.html": "/portfolio-REACTjs/index.html",
-    "static/css/main.ce3d83c9.chunk.css.map": "/portfolio-REACTjs/static/css/main.ce3d83c9.chunk.css.map",
+    "static/css/main.8774676f.chunk.css.map": "/portfolio-REACTjs/static/css/main.8774676f.chunk.css.map",
     "static/js/2.cb5a6dcc.chunk.js.LICENSE.txt": "/portfolio-REACTjs/static/js/2.cb5a6dcc.chunk.js.LICENSE.txt",
     "static/media/Bootstrap-Logo.761a5baf.png": "/portfolio-REACTjs/static/media/Bootstrap-Logo.761a5baf.png",
     "static/media/Trello_logo.e8a29855.png": "/portfolio-REACTjs/static/media/Trello_logo.e8a29855.png",
@@ -23,17 +23,19 @@
     "static/media/instagram.6030a881.png": "/portfolio-REACTjs/static/media/instagram.6030a881.png",
     "static/media/javascript-original.f719efab.svg": "/portfolio-REACTjs/static/media/javascript-original.f719efab.svg",
     "static/media/linkedin.5f5b72fe.svg": "/portfolio-REACTjs/static/media/linkedin.5f5b72fe.svg",
-    "static/media/medailloncv.7205a6f8.png": "/portfolio-REACTjs/static/media/medailloncv.7205a6f8.png",
+    "static/media/medailloncv.0ecae9f0.png": "/portfolio-REACTjs/static/media/medailloncv.0ecae9f0.png",
     "static/media/mySQL.9ea438b0.png": "/portfolio-REACTjs/static/media/mySQL.9ea438b0.png",
     "static/media/node-js.0f5c1eec.svg": "/portfolio-REACTjs/static/media/node-js.0f5c1eec.svg",
+    "static/media/phone.a0c36e36.jpg": "/portfolio-REACTjs/static/media/phone.a0c36e36.jpg",
     "static/media/php-original.6dd1c35d.svg": "/portfolio-REACTjs/static/media/php-original.6dd1c35d.svg",
     "static/media/pomodoro-start.d6a9be54.png": "/portfolio-REACTjs/static/media/pomodoro-start.d6a9be54.png",
-    "static/media/sass-original.8ec16938.svg": "/portfolio-REACTjs/static/media/sass-original.8ec16938.svg"
+    "static/media/sass-original.8ec16938.svg": "/portfolio-REACTjs/static/media/sass-original.8ec16938.svg",
+    "static/media/App.css": "/portfolio-REACTjs/static/media/target.8a02973a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f76bd03f.js",
     "static/js/2.cb5a6dcc.chunk.js",
-    "static/css/main.ce3d83c9.chunk.css",
-    "static/js/main.72e8f16f.chunk.js"
+    "static/css/main.8774676f.chunk.css",
+    "static/js/main.3ab2a168.chunk.js"
   ]
 }
