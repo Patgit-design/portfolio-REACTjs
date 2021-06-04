@@ -9,6 +9,7 @@ import Skills from './content/skills';
 import Contact from './content/contact';
 import Projects from './content/projects';
 
+
 function App() {
     return (
         <Router>

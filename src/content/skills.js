@@ -10,7 +10,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="condiv skills">
-                <h1 className="subtopic">
+                <h1 className="skills">
                     My skills and the tools I play with</h1>
                 <ul class = "list-skills">
                     {this.state.myskills.map((value) => {

@@ -19,72 +19,40 @@ body {
   display: flex;
   width: 100vw;
   min-height: 100vh;
+  background-color: rgb(0, 160, 176, 0.6);
 }
 h1 {
   font-family: "Saira", sans-serif;
 }
 /* .condiv class is for the right side content container*/
 .condiv {
-  background-color: #ffffff;
+  background-color: #f0eee9;
   margin: 10% 5% 10% 5%;
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
 }
 .condiv-home {
-  margin: 10% 5% 10% 5%;
+  margin: 5% 5% 5% 5%;
+  background-color: #CF5C78;
+
+}
+.typingeffect {
+  font-size: 1.8rem;
+  font-weight: bold;
+  float: left;
+  color:#ffffff;
 }
 nav {
   padding: 60px 30px 0px 30px;
   display: flex;
   text-decoration: none;
   font-family: "Saira", sans-serif;
- 
- background: linear-gradient(
-    270deg,
-    #00050d,
-    #1b3140,
-    #245e75,
-    #1e91a9,
-    #12c7d8
-  );
-  background-size: 75% 50%;
+  background-color: #f5df4d;
+  height: 100vw;
+  width: auto;
+  
+  z-index: 9;
 
-  -webkit-animation: AnimationName 13s ease infinite;
-  -moz-animation: AnimationName 13s ease infinite;
-  animation: AnimationName 13s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 74%;
-  }
-  50% {
-    background-position: 100% 27%;
-  }
-  100% {
-    background-position: 0% 74%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 74%;
-  }
-  50% {
-    background-position: 100% 27%;
-  }
-  100% {
-    background-position: 0% 74%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 74%;
-  }
-  50% {
-    background-position: 100% 27%;
-  }
-  100% {
-    background-position: 0% 74%;
-  }
 }
 nav ul li a {
   text-decoration: none;
@@ -103,32 +71,105 @@ nav ul li {
   text-decoration: none;
   color: white !important;
 }
+.widecard {
+  box-shadow: 60px -16px #939597;
+  margin: 6vw;
+  text-decoration: none;
+  text-align: center;
+}
 /* css for active class */
 .active {
   font-weight: bolder;
+  color: #939597;
 }
 .logo-skills {
   width: 50%;
   height: auto;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 3rem;
-  margin-top: 5rem;
+  gap: 2.5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  box-shadow: 0px 4px 12px #cf5c78;
 }
 
 .list-skills {
-  list-style-type: circle;
+  list-style-image: url("./img/target.png");
 }
 
 .social {
-  width: 50%;
   position: absolute;
-  margin-top: 20px;
   display: flex;
-  bottom: 60px;
   justify-content: space-between;
-}
 
+  z-index: 1;
+  padding-left: 25%;
+  top: 35%;
+  width: 50vw;
+}
+.social-logo {
+  width: auto;
+  height: 15vh;
+}
+.insta {
+  width: auto;
+  height: 15vh;
+}
+.pomodoro {
+  width: 20vw;
+  height: auto;
+  box-shadow: 0px 4px 12px #00589b;
+  padding: 2vw;
+  margin: 2vw;
+}
+.condiv-contact {
+  display: inline-block;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.contact-phone {
+  width: auto;
+  height: 100vw;
+
+}
+.subtopic {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  top: 8%;
+  color: white;
+  width: 100vw;
+}
+.email {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  color: white;
+  width: 100%;
+}
+#profil{
+  transform-origin: 50% 50%;
+}
+ 
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotateY(360deg);
+    }
+}
+ 
+.profilepic {
+    animation: rotating 5s linear infinite;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
 
 @media only screen and (max-width: 1024px) {
   .social {
@@ -146,54 +187,56 @@ nav ul li {
     height: auto;
     padding: 0px 0px 0px 0px;
     margin-left: 0;
-  
   }
- 
+  .condiv-contact {
+    display: flex;
+    flex: nowrap;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
   nav ul {
     margin: 0;
     width: 100%;
     height: 100%;
     padding-right: 50%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: center;
     justify-content: center;
     float: none;
   }
   .social {
-justify-content: space-between;
-   
+    justify-content: space-between;
   }
-  .social-logo{
+  .social-logo {
     width: auto;
-    height: 65%;
+    height: 100%;
   }
-  .insta{
+  .insta {
     width: auto;
     height: 3.8vh;
-
   }
   .App {
     display: flex;
     width: 100%;
     height: auto;
-   
   }
   .logo-skills {
-
     flex-wrap: wrap;
     width: 50vw;
     height: auto;
   }
-  .logo{
+  .logo {
     width: auto;
-    height:6vw;
+    height: 8vw;
   }
 
   h1 h2 h3 h4 {
-    font-size: 0.8rem;
+    font-size: 0.3rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .profilepic {
     width: 80%;
@@ -201,35 +244,32 @@ justify-content: space-between;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 10%;
-  }
+   
 
+  }
 
   .nav li {
     float: left;
   }
 
   .typingeffect {
-   font-size: 1rem;
-   font-weight: bold;
-  float: right;
+    font-size: 1rem;
+    font-weight: bold;
+    float: right;
   }
-  .link-education{
+  .link-education {
     text-decoration: none;
     padding: 5rem;
   }
-  .condiv{
+  .condiv {
     width: 100vw;
     height: 100vh;
-  
   }
-  .pomodoro{
+  .pomodoro {
     width: 35vw;
     height: auto;
   }
-  .link-project{
+  .link-project {
     float: right;
   }
 }
-
-
-
