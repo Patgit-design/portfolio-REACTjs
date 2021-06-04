@@ -29,7 +29,7 @@ h1 {
   background-color: #f0eee9;
   margin: 10% 5% 10% 5%;
   width: 100vw;
-  height: 150vh;
+  height: 200vh;
 }
 .condiv-home {
   margin: 5% 5% 5% 5%;
@@ -95,6 +95,7 @@ nav ul li {
 
 .list-skills {
   list-style-image: url("./img/target.png");
+  margin-left: 5vw;;
 }
 
 .social {
