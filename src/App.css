@@ -28,18 +28,15 @@ h1 {
 .condiv {
   background-color: #f0eee9;
   margin: 10% 5% 10% 5%;
-  width: 100vw;
-  height: 200vh;
 }
 .condiv-home {
   margin: 5% 5% 5% 5%;
-
 }
 .typingeffect {
   font-size: 1.8rem;
   font-weight: bold;
   float: left;
-  color:#ffffff;
+  color: #ffffff;
 }
 nav {
   padding: 60px 30px 0px 30px;
@@ -47,11 +44,10 @@ nav {
   text-decoration: none;
   font-family: "Saira", sans-serif;
   background-color: #f5df4d;
-  height: 100vw;
+  height: 150vw;
   width: auto;
-  
-  z-index: 9;
 
+  z-index: 9;
 }
 nav ul li a {
   text-decoration: none;
@@ -82,7 +78,7 @@ nav ul li {
   color: #939597;
 }
 .logo-skills {
-  width: 50%;
+  width: 50vw;
   height: auto;
   display: inline-flex;
   flex-wrap: wrap;
@@ -94,17 +90,16 @@ nav ul li {
 
 .list-skills {
   list-style-image: url("./img/target.png");
-  margin-left: 5vw;;
+  margin-left: 5vw;
 }
 
 .social {
   position: absolute;
   display: flex;
   justify-content: space-between;
-
   z-index: 1;
-  padding-left: 25%;
-  top: 35%;
+  padding-left: 10%;
+  top: 80vh;
   width: 50vw;
 }
 .social-logo {
@@ -115,23 +110,37 @@ nav ul li {
   width: auto;
   height: 15vh;
 }
-.pomodoro {
+.projects {
+display: flex;
+flex-direction:column;
   width: 20vw;
   height: auto;
   box-shadow: 0px 4px 12px #00589b;
-  padding: 2vw;
+  padding: 5vw;
   margin: 2vw;
+}
+.description{
+  
+  margin-bottom: 2vw;
+
+}
+.pomodoro {
+  width: 18vw;
+  height: auto;
+}
+.turlututu {
+  width: 19vw;
+  height: auto;
 }
 .condiv-contact {
   display: inline-block;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
 }
 .contact-phone {
   width: auto;
-  height: 100vw;
-
+  height: 80vw;
 }
 .subtopic {
   background: rgba(0, 0, 0, 0.5);
@@ -151,24 +160,24 @@ nav ul li {
   color: white;
   width: 100%;
 }
-#profil{
+#profil {
   transform-origin: 50% 50%;
 }
- 
+
 @keyframes rotating {
-    from{
-        -webkit-transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotateY(360deg);
-    }
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
 }
- 
+
 .profilepic {
-    animation: rotating 5s linear infinite;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    animation-iteration-count: 3;
+  animation: rotating 5s linear infinite;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -226,6 +235,7 @@ nav ul li {
     flex-wrap: wrap;
     width: 50vw;
     height: auto;
+    margin: 5vw;
   }
   .logo {
     width: auto;
@@ -244,8 +254,6 @@ nav ul li {
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 10%;
-   
-
   }
 
   .nav li {
@@ -261,15 +269,34 @@ nav ul li {
     text-decoration: none;
     padding: 5rem;
   }
-  .condiv {
-    width: 100vw;
-    height: 100vh;
-  }
+  
   .pomodoro {
     width: 35vw;
+    height: auto;
+  }
+  .ChicKebab{
+    width: 40vw;
+    height: auto;
+  }
+  .turlututu {
+    width: 40vw;
+    height: auto;
+  }
+  .hangman{
+    width: 40vw;
+    height: auto;
+  }
+  .virus{
+    width: 40vw;
     height: auto;
   }
   .link-project {
     float: right;
   }
+  .projects {
+    flex-wrap: wrap;
+      width: 40vw;
+      height: auto;
+      justify-content: space-between;
+    }
 }
