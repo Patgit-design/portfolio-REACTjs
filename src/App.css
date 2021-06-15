@@ -219,6 +219,8 @@ flex-direction:column;
   }
   .social {
     justify-content: space-between;
+    top: 88%;
+ 
   }
   .social-logo {
     width: auto;
